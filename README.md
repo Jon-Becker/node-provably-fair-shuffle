@@ -19,7 +19,7 @@ When a user plays a game, the server would generate a unique `serverSeed` which 
 If the server or client wish to reshuffle the deck, the `nonce` should be increased by `1`, which will generate a new seed for the deck and reshuffle it, while still keeping the `clientSeed` and `serverSeed` the same.
 
 ##### Example:
-In order to follow along the uses of this project, please navigate to the [demo page](https://jbecker.dev/demos/node-provably-fair-shuffle), where you can both view the code behind the shuffle function, as well as preform test deck verifications.
+In order to follow along the uses of this project, please navigate to the [demo page](https://jbecker.dev/demos/node-provably-fair-shuffle/), where you can both view the code behind the shuffle function, as well as preform test deck verifications.
 
 ```
 var clientSeed = "able able able able able able able able able able able able";
